@@ -1,0 +1,487 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*--------------------*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e8e8e8; }
+
+.intro {
+  background: url("../img/Livello 1.png") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1280px;
+  height: 745px;
+  margin: 0 auto;
+  padding: 73px 0 0 0; }
+  .intro__text {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 30px 0;
+    font-style: italic; }
+  .intro .nav {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3.9px;
+    font-weight: 700;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 0 250px 0; }
+    .intro .nav__link {
+      color: #fff;
+      text-decoration: none;
+      -webkit-transition: color 0.2s linear;
+      -o-transition: color 0.2s linear;
+      transition: color 0.2s linear;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 50px; }
+    .intro .nav__link:hover {
+      color: orange; }
+    .intro .nav__link:nth-child(3) {
+      margin: -33px 0 0 0; }
+  .intro h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5.4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 15px 0; }
+  .intro .button1 {
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 auto;
+    letter-spacing: 2.2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: fantasy; }
+  .intro .button1:hover {
+    background-color: #16a085;
+    color: #fff; }
+  .intro .button1:active {
+    background-color: silver; }
+
+.container {
+  background: url("../img/phototime_02.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1280px;
+  height: 496px;
+  margin: 0 auto;
+  padding: 115px 0 0 130px; }
+  .container__text {
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    line-height: 2;
+    color: #373737;
+    width: 428px;
+    height: 107px;
+    margin: 0 0 47px 0; }
+  .container__span {
+    font-weight: 600; }
+
+.h2 {
+  color: #16a085;
+  font-size: 18px;
+  letter-spacing: 2.7px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 50px 0;
+  width: 376px;
+  height: 35px; }
+
+.button2 {
+  width: 190px;
+  height: 51px;
+  border-radius: 5px;
+  background-color: #1abc9c;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 auto;
+  letter-spacing: 2.2px;
+  font-size: 14px;
+  color: #fff;
+  font-family: fantasy; }
+
+.button2:hover {
+  background-color: #16a085;
+  color: #fff; }
+
+.button2:active {
+  background-color: silver; }
+
+.container2 {
+  background: url("../img/phototime_03.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1280px;
+  height: 560px;
+  margin: 0 auto;
+  padding: 144px 0 0 760px; }
+  .container2__h3 {
+    color: #16a085;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 2.7px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 44px 0; }
+  .container2__text {
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    line-height: 2;
+    color: #373737;
+    width: 428px;
+    height: 107px;
+    margin: 0 0 41px 0; }
+  .container2__span {
+    font-weight: 600; }
+  .container2__text2 {
+    font-weight: 700;
+    letter-spacing: 1.8px; }
+  .container2__text2:after {
+    content: ' ';
+    display: block;
+    width: 43px;
+    height: 2px;
+    background-color: #000;
+    text-align: center;
+    margin: 5px 0 0 0; }
+
+.button3 {
+  width: 190px;
+  height: 51px;
+  border-radius: 5px;
+  background-color: #1abc9c;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 auto;
+  letter-spacing: 2.2px;
+  font-size: 14px;
+  color: #fff;
+  font-family: fantasy;
+  margin: 0 0 45px 0; }
+
+.button3:hover {
+  background-color: #16a085;
+  color: #fff; }
+
+.button3:active {
+  background-color: silver; }
+
+.container3 {
+  width: 100%;
+  max-width: 1280px;
+  height: 490px;
+  margin: 0 auto;
+  background-color: #f5f6f7;
+  padding: 0 0 0 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: between;
+  -ms-flex-pack: between;
+  justify-content: between; }
+  .container3__text {
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 155px 0 0 129px;
+    margin: 0 0 24px 0; }
+  .container3__text:before {
+    content: url("../img/Livello 4.png");
+    width: 59px;
+    height: 55px;
+    display: block;
+    margin: 0 0 31px 50px; }
+  .container3__text2 {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #373737;
+    width: 139px;
+    height: 34px;
+    text-align: center;
+    margin: 0 0 0 142px; }
+  .container3__f2 {
+    background: url("../img/Livello 5.png") center no-repeat;
+    background-size: cover;
+    width: 370px;
+    height: 244px;
+    margin: 121px 24px 0 82px; }
+  .container3__f3 {
+    background: url("../img/Livello 6.png") center no-repeat;
+    background-size: cover;
+    width: 371px;
+    height: 244px;
+    margin: 121px 0 0 0; }
+
+.container4 {
+  background: url("../img/Livello 7.png") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1280px;
+  height: 790px;
+  margin: 0 auto;
+  padding: 352px 0 0 403px; }
+  .container4__text {
+    width: 476px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 3.8px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 30px 0;
+    font-family: arial; }
+
+.txtinput {
+  width: 280px;
+  height: 60px;
+  margin: 0 0 0 64px;
+  padding: 0 0 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #373737;
+  letter-spacing: 2.4px; }
+
+.txtinput:focus {
+  -webkit-box-shadow: 0 0 15px rgba(52, 210, 228, 0.9);
+  box-shadow: 0 0 15px rgba(52, 210, 228, 0.9); }
+
+.txtbutton {
+  width: 63px;
+  height: 60px;
+  background: #1abc9c url("../img/fa-check.png") center no-repeat; }
+
+.txtbutton:hover {
+  background: #16a085 url("../img/fa-check.png") center no-repeat; }
+
+.txtbutton:active {
+  background: silver url("../img/fa-check.png") center no-repeat; }
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: between;
+  -ms-flex-pack: between;
+  justify-content: between; }
+
+.container5 {
+  width: 100%;
+  max-width: 1280px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #f5f6f7;
+  padding: 91px 0 0 0; }
+  .container5__text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #373737;
+    text-transform: uppercase;
+    margin: 0 0 16px 0; }
+  .container5__text2 {
+    width: 700px;
+    height: 54px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    line-height: 1.83;
+    text-align: center;
+    color: #373737;
+    margin: 0 0 47px 280px;
+    font-family: Arial; }
+
+.apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: between;
+  -ms-flex-pack: between;
+  justify-content: between; }
+
+.applebutton {
+  background: #1abc9c;
+  width: 240px;
+  height: 56px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  color: #fff;
+  text-align: left;
+  padding: 0 0 0 24px;
+  border-radius: 5px 0 0 5px;
+  display: inline-block;
+  margin: 0 0 0 322px; }
+
+.applebutton:hover {
+  background: #16a085; }
+
+.applebutton:active {
+  background: silver; }
+
+.applebutton2 {
+  width: 56px;
+  height: 56px;
+  background: #16a085 url("../img/fa-apple.png") center no-repeat;
+  border-radius: 0 5px 5px 0;
+  display: inline-block;
+  vertical-align: top; }
+
+.play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: between;
+  -ms-flex-pack: between;
+  justify-content: between; }
+
+.playbutton {
+  background: #1abc9c;
+  width: 240px;
+  height: 56px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  color: #fff;
+  text-align: left;
+  padding: 0 0 0 24px;
+  border-radius: 5px 0 0 5px;
+  display: inline-block;
+  margin: 0 0 0 26px; }
+
+.playbutton:hover {
+  background: #16a085; }
+
+.playbutton:active {
+  background: silver; }
+
+.playbutton2 {
+  width: 56px;
+  height: 56px;
+  background: #16a085 url("../img/fa-android.png") center no-repeat;
+  border-radius: 0 5px 5px 0;
+  display: inline-block; }
+
+.navbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: between;
+  -ms-flex-pack: between;
+  justify-content: between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.container6 {
+  width: 100%;
+  max-width: 1280px;
+  background: #fff;
+  height: 135px;
+  margin: 0 auto;
+  padding: 0 0 0 126px;
+  position: relative; }
+  .container6__text {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    color: #373737;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    padding: 45px 0 0 0; }
+  .container6__text2 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    color: #373737;
+    margin: 0 0 20px 0; }
+  .container6__img {
+    background: url("../img/Livello 4.png");
+    width: 59px;
+    height: 55px;
+    position: absolute;
+    top: 38px;
+    right: 129px; }
+
+.spantext {
+  color: #16a085; }
+
+.spantext2 {
+  color: #16a085; }
